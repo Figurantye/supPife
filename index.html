@@ -15,23 +15,21 @@
     <main class="mx-md-5 mx-sm-3 align-items-center flex-column d-flex mt-5">
         <div class="row container p-0">
             <article class="col-6 col-sm-6 col-md-4 justify-content-center p-0 d-flex">
-                <form id="" class="text-center flex-column align-items-center justify-content-center d-flex">
-                    <label for="deckQuantity"> How Many Decks?</label>
-                    <input type="number" class="form-control w-75 required" placeholder="" id="deckQuantity">
+                <form id="formDeck" class="text-center flex-column align-items-center justify-content-center d-flex">
+                    <input type="number" class="form-control w-75 text-secondary required" placeholder="Decks" min="0" id="deckQuantity">
                 </form>
             </article>
         
             <article class="col-6 col-sm-6 col-md-4 justify-content-center p-0 d-flex">
-                <form id="" class="text-center flex-column align-items-center justify-content-center d-flex">
-                    <label for="peopleQuantity"> How Many People?</label>
-                    <input type="number" class="form-control w-75 required" placeholder="" id="peopleQuantity">
+                <form id="formPeople" class="text-center flex-column align-items-center justify-content-center d-flex">
+                    <input type="number" class="form-control w-75 required" placeholder="Players" min="0" id="playersQuantity">
                 </form>
             </article>
 
             <article class="col col-sm-6 col-md-4 justify-content-center p-0 mt-4">
-                <form id="" class="text-center flex-column align-items-center justify-content-center d-flex">
-                    <label for="jokerBool"> Jokers</label>
-                    <input type="checkbox" class="form-check-input required" placeholder="" id="jokerBool">
+                <form id="formJoker" class="text-center flex-column align-items-center justify-content-center d-flex">
+                    <label for="jokerBool">Jokers</label>
+                    <input type="checkbox" class="form-check-input required" id="jokerBool">
                 </form>
             </article>
         </div>
