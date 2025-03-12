@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>SupPife</title>
+</head>
+<body class="text-light">
+    <header class="d-flex align-items-center flex-column">
+        <h1 class="mb-auto">SupPife</h1>
+        <h3 class="text-secondary"> <strong class="text-primary">Sup</strong><strong class="text-danger">porter</strong> <strong class="text-warning">for</strong> <strong class="text-success">Pife</strong></h3>
+    </header>
+    <main class="mx-md-5 mx-sm-3 align-items-center flex-column d-flex mt-5">
+        <div class="row container p-0">
+            <article class="col-6 col-sm-6 col-md-4 justify-content-center p-0 d-flex">
+                <form id="" class="text-center flex-column align-items-center justify-content-center d-flex">
+                    <label for="deckQuantity"> How Many Decks?</label>
+                    <input type="number" class="form-control w-75 required" placeholder="" id="deckQuantity">
+                </form>
+            </article>
+        
+            <article class="col-6 col-sm-6 col-md-4 justify-content-center p-0 d-flex">
+                <form id="" class="text-center flex-column align-items-center justify-content-center d-flex">
+                    <label for="peopleQuantity"> How Many People?</label>
+                    <input type="number" class="form-control w-75 required" placeholder="" id="peopleQuantity">
+                </form>
+            </article>
+
+            <article class="col col-sm-6 col-md-4 justify-content-center p-0 mt-4">
+                <form id="" class="text-center flex-column align-items-center justify-content-center d-flex">
+                    <label for="jokerBool"> Jokers</label>
+                    <input type="checkbox" class="form-check-input required" placeholder="" id="jokerBool">
+                </form>
+            </article>
+        </div>
+        <section class="mt-5">
+            <button type="button" class="btn btn-outline-primary" onclick="play()">PLAY <img src="./img/game-icons--card-discard.png" class="w-25" alt=""></button>
+        </section>
+    </main> 
+</body>
+</html>
